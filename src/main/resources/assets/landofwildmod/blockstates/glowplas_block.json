@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "landofwildmod:block/glowplas_block"
+    }
+  }
+}

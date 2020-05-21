@@ -1,6 +1,8 @@
 {
   "item.landofwildmod.ruby" : "Ruby",
   "item.landofwildmod.plas" : "Plas",
-  "itemGroup.FutureMaterials" : "Future Materials",
-  "item.landofwildmod.glowplas" : "Glow Plas"
+  "item.landofwildmod.glowplas" : "Glow Plas",
+  "block.landofwildmod.plas_block" : "Plas Block",
+  "block.landofwildmod.glowplas_block" : "Glow Plas Block",
+  "itemGroup.FutureMaterials" : "Future Materials"
 }

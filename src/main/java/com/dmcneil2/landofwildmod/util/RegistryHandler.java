@@ -1,5 +1,7 @@
 package com.dmcneil2.landofwildmod.util;
 
+import com.dmcneil2.landofwildmod.blocks.BlockItemBase;
+import com.dmcneil2.landofwildmod.blocks.GlowplasBlock;
 import com.dmcneil2.landofwildmod.blocks.PlasBlock;
 import com.dmcneil2.landofwildmod.items.ItemBase;
 import net.minecraft.block.Block;
@@ -36,7 +38,9 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block> PLAS_BLOCK = BLOCKS.register("plas_block", PlasBlock::new);
+    public static final RegistryObject<Block> GLOWPLAS_BLOCK = BLOCKS.register("glowplas_block", GlowplasBlock::new);
 
     // Block Items
-
+    public static final RegistryObject<Item> PLAS_BLOCK_ITEM = ITEMS.register("plas_block", () -> new BlockItemBase(PLAS_BLOCK.get()));
+    public static final RegistryObject<Item> GLOWPLAS_BLOCK_ITEM = ITEMS.register("glowplas_block", () -> new BlockItemBase(GLOWPLAS_BLOCK.get()));
 }

@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "landofwildmod:block/plas_block"
+    }
+  }
+}
